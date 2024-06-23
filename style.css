@@ -83,6 +83,7 @@ ul{
 .content{
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 .container{
     display:flex;
@@ -93,10 +94,10 @@ ul{
 }
 
 .information{
-    max-width: 150px;
+    max-width: 175px;
 }
 #box{
-    border:2px  solid #3882F6 ;
+    border:3px  solid #3882F6 ;
     width: 150x;
     height: 150px;
     border-radius: 6px;
@@ -107,6 +108,31 @@ ul{
 .information .text{
     padding-top: 10px;
     color: black;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 200px; 
+
+}
+.actualquote{
+    color: #1F2937;
+    font-size: 36px;
+    width: 80%;
+    align-self: flex-end;
+    
+}
+
+#author{
+     color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    align-self: flex-end;
+    
+    
 }
 
 
