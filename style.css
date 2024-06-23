@@ -71,6 +71,47 @@ ul{
 }
 
 
+.content h1{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.information{
+    max-width: 150px;
+}
+#box{
+    border:2px  solid #3882F6 ;
+    width: 150x;
+    height: 150px;
+    border-radius: 6px;
+    
+    
+}
+
+.information .text{
+    padding-top: 10px;
+    color: black;
+}
+
+
+
+
 
 
 
