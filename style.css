@@ -1,6 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
-    box-sizing: border-box;
+    
     display: flex;
     flex-direction: column;
 }
@@ -48,7 +52,7 @@ ul{
     color: #E5E7EB;
     width: 90%;    
 }
-.button{
+.blue{
     background: #3882F6;
     border: none;
     color: white;
@@ -114,27 +118,70 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
     padding: 100px 200px; 
+    margin-bottom: 75px;
 
 }
-.actualquote{
+.quote p{
     color: #1F2937;
     font-size: 36px;
+    align-self: center;
     width: 80%;
-    align-self: flex-end;
-    
+   
+     
 }
 
 #author{
      color: #1F2937;
     font-size: 36px;
     font-weight: bold;
-    align-self: flex-end;
+    align-self: flex-end; 
+}
+
+
+
+
+
+.call{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-self: center;
+    margin-bottom: 75px;
+    gap:100px  ;
     
     
 }
 
+
+
+.action{
+   padding: 25px 75px;
+    
+}
+
+
+
+.white{
+    background: #3882F6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 6px;
+    width: 100px;
+    cursor: pointer;
+    border:1px solid white;
+    align-self: center;
+    margin-right: 75px;
+}
+.action h3, p{
+    margin: 0;
+}
 
 
 
