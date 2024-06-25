@@ -116,26 +116,30 @@ ul{
 
 .quote{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
-    padding: 100px 200px; 
+    justify-content: center;
+    background-color:#E5E7EB;
+    padding:50px 20px;
     margin-bottom: 75px;
+}
 
-}
-.quote p{
-    color: #1F2937;
+.actualquote{
     font-size: 36px;
-    align-self: center;
-    width: 80%;
-   
-     
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 700px;
+    text-wrap: wrap;
 }
+    
+
+
+
+     
+
 
 #author{
      color: #1F2937;
-    font-size: 36px;
+    
     font-weight: bold;
     align-self: flex-end; 
 }
@@ -183,6 +187,16 @@ ul{
     margin: 0;
 }
 
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 
